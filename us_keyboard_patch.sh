@@ -7,7 +7,7 @@ if [ "$EUID" -ne 0 ]
 fi
 
 # copy patch to keyboard data folder
-cp us_patch.diff /usr/share/X11/xkb/symbols
+cp us_patch.diff /usr/share/X11/xkb/symbols/
 
 # change directory
 pushd /usr/share/X11/xkb/symbols/us_patch.diff
