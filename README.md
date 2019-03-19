@@ -10,7 +10,7 @@ Adds german umlauts (`ä, ö, ü, ß`) to US-Keyboards.<br>
 ```bash
 git clone git@github.com:Severon96/us_keyboard_patch.git
 cd us_keyboard_patch
-sudo ./us_keyboard_patch.sh
+sudo bash ./us_keyboard_patch.sh
 ```
 
 Just run the script with root privileges, login again and switch to the US-Keyboard.<br>
