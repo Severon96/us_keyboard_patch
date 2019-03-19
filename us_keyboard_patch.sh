@@ -10,7 +10,7 @@ fi
 cp us_patch.diff /usr/share/X11/xkb/symbols/
 
 # change directory
-pushd /usr/share/X11/xkb/symbols/us_patch.diff
+pushd /usr/share/X11/xkb/symbols/
 
 # create a backup of the original us keyboard data
 cp us us.backup
